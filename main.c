@@ -1,27 +1,10 @@
-
-gentomacine
-/
-simple_shell
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-simple_shell/main.c
-@muubaraq
-muubaraq main.c and rep_var edit
- 2 contributors
-73 lines (62 sloc)  1.13 KB
 #include "main.h"
 
 /**
  * free_data - frees data structure
  *
  * @datash: data structure
+ *
  * Return: no return
  */
 void free_data(data_shell *datash)
@@ -42,6 +25,7 @@ void free_data(data_shell *datash)
  *
  * @datash: data structure
  * @av: argument vector
+ *
  * Return: no return
  */
 void set_data(data_shell *datash, char **av)
