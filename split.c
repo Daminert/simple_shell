@@ -5,6 +5,7 @@
  *
  * @input: input string
  * @bool: type of swap
+ *
  * Return: swapped string
  */
 char *swap_char(char *input, int bool)
@@ -49,6 +50,7 @@ char *swap_char(char *input, int bool)
  * @head_s: head of separator list
  * @head_l: head of command lines list
  * @input: input string
+ *
  * Return: no return
  */
 void add_nodes(sep_list **head_s, line_list **head_l, char *input)
@@ -85,6 +87,7 @@ void add_nodes(sep_list **head_s, line_list **head_l, char *input)
  * @list_s: separator list
  * @list_l: command line list
  * @datash: data structure
+ *
  * Return: no return
  */
 void go_next(sep_list **list_s, line_list **list_l, data_shell *datash)
@@ -127,6 +130,7 @@ void go_next(sep_list **list_s, line_list **list_l, data_shell *datash)
  *
  * @datash: data structure
  * @input: input string
+ *
  * Return: 0 to exit, 1 to continue
  */
 int split_commands(data_shell *datash, char *input)
@@ -172,6 +176,7 @@ int split_commands(data_shell *datash, char *input)
  * split_line - tokenizes the input string
  *
  * @input: input string.
+ *
  * Return: string splitted.
  */
 char **split_line(char *input)
