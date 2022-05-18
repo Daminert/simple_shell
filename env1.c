@@ -1,26 +1,9 @@
-
-gentomacine
-/
-simple_shell
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-simple_shell/env1.c
-@muubaraq
-muubaraq files edited
- 2 contributors
-80 lines (69 sloc)  1.37 KB
 #include "main.h"
 
 /**
  * cmp_env_name - compares env variables names
  * with the name passed.
+ *
  * @nenv: name of the environment variable
  * @name: name passed
  *
@@ -43,6 +26,7 @@ int cmp_env_name(const char *nenv, const char *name)
 
 /**
  * _getenv - get an environment variable
+ *
  * @name: name of the environment variable
  * @_environ: environment variable
  *
@@ -77,6 +61,7 @@ char *_getenv(const char *name, char **_environ)
  * _env - prints the evironment variables
  *
  * @datash: data relevant.
+ *
  * Return: 1 on success.
  */
 int _env(data_shell *datash)
