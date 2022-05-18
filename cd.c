@@ -1,21 +1,3 @@
-
-gentomacine
-/
-simple_shell
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-simple_shell/cd.c
-@muubaraq
-muubaraq files edited
- 2 contributors
-165 lines (137 sloc)  2.7 KB
 #include "main.h"
 
 /**
@@ -74,6 +56,7 @@ void cd_dot(data_shell *datash)
  * by the user
  *
  * @datash: data relevant (directories)
+ *
  * Return: no return
  */
 void cd_to(data_shell *datash)
@@ -108,6 +91,7 @@ void cd_to(data_shell *datash)
  * cd_previous - changes to the previous directory
  *
  * @datash: data relevant (environ)
+ *
  * Return: no return
  */
 void cd_previous(data_shell *datash)
@@ -150,6 +134,7 @@ void cd_previous(data_shell *datash)
  * cd_to_home - changes to home directory
  *
  * @datash: data relevant (environ)
+ *
  * Return: no return
  */
 void cd_to_home(data_shell *datash)
